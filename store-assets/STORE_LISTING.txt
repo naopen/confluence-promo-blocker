@@ -1,0 +1,139 @@
+Chrome Web Store 掲載情報
+====================================
+
+■ 短い説明（日本語・132文字以内）
+------------------------------------
+Confluence Cloudのプロモーションモーダル（Loomプロモーションなど）を自動で非表示にします。
+
+
+■ 短い説明（英語・132文字以内）
+------------------------------------
+Automatically hides promotional modals (Loom invitations, AI feature prompts, etc.) on Confluence Cloud.
+
+
+■ 詳細な説明（日本語）
+------------------------------------
+// Confluence Promo Blocker は、Confluence Cloud上に表示されるプロモーションモーダルを自動的に非表示にするChrome拡張機能です。
+
+【対象となるモーダル】
+
+Confluenceでは、Loom、AI機能、その他のAtlassian製品を宣伝するモーダルが頻繁に表示されます。これらのモーダルは作業の邪魔になりますが、完全に無効化する公式の方法はありません。
+
+この拡張機能は「使ってみる」「Try it」「Try Loom」のプロモーション文言を含むモーダルを検出し、自動的に非表示にします。
+
+【主な機能】
+
+• プロモーションモーダルの自動検出・非表示
+ページを開くだけで動作します。設定は不要です。
+
+• 日英対応
+日本語（「使ってみる」）と英語（"Try it"、"Try Loom"）のプロモーション文言を検出します。
+
+• 通常の通知は残す
+プロモーション以外の通知やアラートには影響しません。
+
+• 軽量設計
+MutationObserverでDOMの変更を監視するだけのシンプルな実装です。ページの読み込み速度に影響しません。
+
+【使い方】
+
+1. 拡張機能をインストール
+2. Confluence Cloudのページを開く
+3. プロモーションモーダルが自動的に非表示になります
+
+設定画面はありません。インストールするだけで動作します。
+不要になったらChromeの拡張機能管理画面から無効化または削除してください。
+
+【対象ページ】
+
+Confluence Cloud (https://*.atlassian.net/wiki/*) でのみ動作します。
+
+【プライバシーについて】
+
+• データの保存は一切ありません
+• 外部サーバーへのデータ送信なし
+• ページのDOM操作のみを行います
+
+【免責事項】
+
+本拡張機能は非公式ツールであり、Atlassian公式とは一切関係ありません。
+
+
+■ 詳細な説明（英語）
+------------------------------------
+// Confluence Promo Blocker is a Chrome extension that automatically hides promotional modals on Confluence Cloud.
+
+Targeted Modals
+
+Confluence frequently displays promotional modals for Loom, AI features, and other Atlassian products. These modals interrupt your workflow, and there is no official way to disable them.
+
+This extension detects modals containing promotional text — "Try it", "Try Loom", or their Japanese equivalent — and automatically hides them.
+
+Key Features
+
+• Automatic Detection and Hiding
+Works as soon as you open a page. No configuration needed.
+
+• Multi-language Support
+Detects promotional text in both English ("Try it", "Try Loom") and Japanese ("使ってみる").
+
+• Non-intrusive
+Only hides promotional modals. Regular notifications and alerts are unaffected.
+
+• Lightweight
+Uses a simple MutationObserver to watch for DOM changes. No impact on page load performance.
+
+How to Use
+
+1. Install the extension
+2. Open any Confluence Cloud page
+3. Promotional modals are automatically hidden
+
+There are no settings to configure. Just install and forget.
+To disable, go to Chrome's extension management page.
+
+Target Pages
+
+Works only on Confluence Cloud (https://*.atlassian.net/wiki/*).
+
+Privacy
+
+• No data is stored
+• No data is transmitted to external servers
+• Only performs DOM manipulation on the page
+
+Disclaimer
+
+This is an unofficial tool and is not affiliated with Atlassian.
+
+
+■ カテゴリー
+------------------------------------
+Productivity（生産性ツール）
+
+
+■ 推奨タグ
+------------------------------------
+Confluence, Atlassian, ad blocker, modal blocker, productivity, Loom, promo, notification
+
+
+■ プライバシータブの記入内容
+====================================
+
+【単一用途の説明】
+------------------------------------
+Confluence Cloudのページ上に表示されるプロモーションモーダル（Loomプロモーションやその他の機能紹介など）を自動的に検出して非表示にします。
+
+【ホスト権限 が必要な理由】
+------------------------------------
+Confluence Cloud（https://*.atlassian.net/wiki/*）のページでのみ動作し、プロモーションモーダルを検出・非表示にするためにページのDOMにアクセスする必要があります。このドメイン以外では動作しません。
+
+【リモートコードを使用していますか？】
+------------------------------------
+いいえ、リモートコードを使用していません
+
+【データ使用】
+------------------------------------
+すべてのチェックボックスを空欄のまま（チェックなし）
+
+理由: この拡張機能は、いかなるデータも収集・保存・送信しません。ページのDOM操作のみを行います。
